@@ -1,0 +1,252 @@
+.container {
+    width: 75%;
+    margin:auto;
+    text-align: center;
+    text-align-last: center;
+    margin-top:25px; 
+    
+}
+
+
+
+.box {
+    display:inline-block;
+    width: 350px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 2px solid;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    transition: transform 0.3s; /* Hover'da geçiş efekti */
+    
+}
+@media screen and (max-width: 720px) {
+    .box {
+        display:inline-block;
+        width: 233px;
+        height: 300px;
+        background-color: #ffffff;
+        border: 2px solid;
+        margin-left: 10px;
+        margin-right:10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+        transition: transform 0.3s; /* Hover'da geçiş efekti */
+
+    }
+}
+
+.box:hover {
+    transform: scale(1.1); /* Hover'da büyütme efekti */
+}
+
+.imgdiv {
+    width: 300px;
+    height: 250px;
+    border: 2px solid blue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+    .imgdiv {
+        width: 200px;
+        height: 166px;
+        border: 2px solid blue;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.imgdiv2 {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+    .imgdiv2 {
+        width: 200px;
+        height: 66px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.p_tag {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 45px;
+}
+@media screen and (max-width: 720px) {
+    .p_tag {   
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: fantasy;
+        font-size: 30px;}
+}
+.header {
+    position: relative;
+    z-index: 3;
+    background-color: #438abc;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    
+    min-height: 120px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        min-height: 10px;
+         /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        min-height: 50px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+} 
+@media screen and (max-width: 900px) {
+    .header {
+        min-height: 60px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+
+
+.logo{
+    display: inline-block;
+    padding: 0.5%;
+    }
+
+.logo2{
+    display: inline-block;
+    padding: 10px; 
+    vertical-align: top;
+    }
+
+.logo3{
+    display: inline-block; 
+    padding: 10px;
+}
+
+.logoWrite {
+    font-weight: bold;
+    font-size: 56px;
+    color: #000;
+}
+
+@media screen and (max-width: 370px) {
+    .logoWrite {
+        font-size: 13px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+@media screen and (max-width: 480px) {
+    .logoWrite {
+        font-size: 17px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+@media screen and (max-width: 600px) {
+    .logoWrite {
+        font-size: 19px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+@media screen and (max-width: 800px) {
+    .logoWrite {
+        font-size: 20px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+@media screen and (max-width: 1000px) {
+    .logoWrite {
+        font-size: 38px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+
+
+#logojpg{
+    width: 128px;
+}
+
+@media screen and (max-width: 900px) {
+    #logojpg {
+        width: 64px; /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #logojpg {
+        width: 48px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+
+header img {
+    width: 20px;
+    height: auto;
+    margin-top: 0px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bannerlogo{
+display: inline-block;
+padding: 10px;
+}
+
+
+.banner2{
+display: inline-block;
+padding: 10px;
+vertical-align: top;
+}
+.bannerWrite{
+font-weight: bold;
+font-size: 56px;
+color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bannerWrite {
+        font-size: 36px; /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bannerWrite {
+        font-size: 12px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+
+
+.deneme1{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    height: 200px;
+    
+    
+    }

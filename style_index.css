@@ -1,0 +1,82 @@
+.containere {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.columne {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.sub-dive {
+    background-color: rgb(62, 102, 85);
+    flex: 1;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.sub-dive2 {
+    flex: 1;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.sub-dive:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
+}
+
+.sub-dive img {
+    max-width: 100%;
+    /* Resmin genişliği sınırlanacak */
+    height: auto;
+    /* Orantılı olarak yüksekliği ayarlanacak */
+}
+
+
+.sub-dive {
+    flex: 1;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    
+}
+
+.sub-dive:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
+}
+
+.sub-dive img {
+    max-width: 100%;
+    /* Resmin genişliği sınırlanacak */
+    height: auto;
+    /* Orantılı olarak yüksekliği ayarlanacak */
+}
+
+.sub-dive3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+#header2{
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    background-image: url(images/noun-istanbul-3587.png);
+ }

@@ -5,89 +5,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-<style>
-	/* ... Diğer stil kuralları ... */
-	.containere {
-		display: flex;
-		flex-direction: row;
-		height: 100vh;
-		max-width: 1000px;
-		margin: 0 auto;
-	}
-
-	.columne {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.sub-dive {
-		flex: 1;
-		border: 1px solid black;
-		margin: 5px;
-		text-align: center;
-		padding: 10px;
-		transition: transform 0.3s, background-color 0.3s;
-	}
-
-	.sub-dive2 {
-		flex: 1;
-		border: 1px solid black;
-		margin: 5px;
-		text-align: center;
-		padding: 10px;
-		transition: transform 0.3s, background-color 0.3s;
-	}
-
-	.sub-dive:hover {
-		background-color: lightgray;
-		transform: scale(1.1);
-	}
-
-	.sub-dive img {
-		max-width: 100%;
-		/* Resmin genişliği sınırlanacak */
-		height: auto;
-		/* Orantılı olarak yüksekliği ayarlanacak */
-	}
-
-
-	.sub-dive {
-		flex: 1;
-		border: 1px solid black;
-		margin: 5px;
-		text-align: center;
-		padding: 10px;
-		transition: transform 0.3s, background-color 0.3s;
-		
-	}
-
-	.sub-dive:hover {
-		background-color: lightgray;
-		transform: scale(1.1);
-	}
-
-	.sub-dive img {
-		max-width: 100%;
-		/* Resmin genişliği sınırlanacak */
-		height: auto;
-		/* Orantılı olarak yüksekliği ayarlanacak */
-	}
-</style>
 
 <head>
 	<title>Directive by HTML5 UP</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="style_index.css" />
 </head>
 
 <body class="is-preload">
 
 	<!-- Header -->
-	<div id="header" style="text-align: center;">
-		<div
-			style="width: 256px; height: 256px;display: inline-block;background-image: url(images/noun-istanbul-3587.png);">
+	<div id="header">
+		<div id="header2">
 		</div>
 		<h1>ROTAMIZ İSTANBUL</h1>
 		<p>İstanbul’u yakından tanımak isteyen
@@ -107,16 +38,13 @@
 
 				ve bunların yanında yeme içme ihtiyaçlarınızı karşılayabileceğiniz tesislerini keşfetmenize yardımcı
 				olmayı amaçlıyoruz.</h2>
-			<!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
+			
 		</header>
 
 		<div class="containere">
 			<div class="columne">
-				<div class="sub-dive" style="background-color: rgb(62, 102, 85);">
-					<div style="display: flex; align-items: center; justify-content: center;padding: 80px;">
+				<div class="sub-dive">
+					<div class="sub-dive3">
 						<img src="images/landscape.png" alt="">
 					</div>
 				</div>
@@ -124,7 +52,7 @@
 					eserlerini keşfedebilirsiniz.
 				</div>
 				<div class="sub-dive" style="background-color: rgb(140, 52, 120);">
-					<div style="display: flex; align-items: center; justify-content: center;padding: 80px;">
+					<div class="sub-dive3">
 						<img src="images/restaurant.png" alt="">
 					</div>
 				</div>
@@ -134,7 +62,7 @@
 					iç içe olabileceğiniz yeşillik alanları bulabilirsiniz
 				</div>
 				<div class="sub-dive" style="background-color: rgb(157, 109, 105);">
-					<div style="display: flex; align-items: center; justify-content: center;padding: 80px;">
+					<div class="sub-dive3">
 						<img src="images/museum (2).png" alt="">
 					</div>
 				</div>
@@ -147,148 +75,7 @@
 
 
 
-		<!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ul>
-					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="col-6 col-12-mobilep">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="col-6 col-12-mobilep">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-								<div class="col-12">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-				</div>
-				-->
+		
 
 		<footer class="major container medium">
 			<h3>ŞİMDİ PLAN SIRASI SİZDE

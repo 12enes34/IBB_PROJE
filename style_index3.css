@@ -1,0 +1,231 @@
+.banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color:rgb(237, 227, 240);
+	color: white;
+	padding: 0px; 
+	text-align: center;
+	font-size: 10px;
+    z-index: 1;
+    height: 120px;
+    width: 1000px;
+    display:block;
+    margin: auto;
+    border-radius: 5%;
+    }
+.Ilce_png {
+        height: 540px;
+    }
+.Ilce_Verileri {
+            flex: 1;    
+        }
+
+.Harita {
+            font-size: 14px;
+            flex: 1;
+        }
+
+        @media screen and (max-width: 768px) {
+            .Harita {
+        /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Harita {
+        /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+        font-size: 8px;
+    }
+}
+
+.scrollable-div { 
+    height: 200px;
+    overflow: auto;
+    border: white solid 3px;
+    padding: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-height: 100px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .scrollable-div {
+        /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .scrollable-div {
+        /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+        padding: 0px;
+    }
+}
+      
+.scrollable-div::-webkit-scrollbar {
+    width: 12px; /* Kaydırma çubuğunun genişliği */
+    }
+
+scrollable-div::-webkit-scrollbar-thumb {
+    background-color: #4CAF50; /* Kaydırma çubuğu rengi */
+    }
+
+scrollable-div::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Kaydırma çubuğu arka plan rengi */
+    }
+
+
+.park-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    }
+
+
+    @media screen and (max-width: 768px) {
+    .park-container {
+        /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+        max-height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .park-container {
+        /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+        max-height: 80px;
+    }
+}
+
+.park {
+    padding: 10px 20px;
+    background-color: rgb(62, 102, 85); /* Yeşil renk */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    min-width: 150px;
+    color: black; /* Öğe metin rengi */
+    
+    }
+
+
+  
+
+.kultürel {
+    padding: 10px 20px;
+    background-color: rgb(157, 109, 105); /* Yeşil renk */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    min-width: 150px;
+    color: black; /* Öğe metin rengi */
+    }
+        
+.sosyal_tesis {
+    padding: 10px 20px;
+    background-color: rgb(140, 52, 120); /* Yeşil renk */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    min-width: 150px;
+    color: black; /* Öğe metin rengi */
+    }
+
+a {
+    text-decoration: none;
+    }
+        
+body{
+    margin: 0;
+    }
+        
+
+@media screen and (max-width: 768px) {
+    .header {
+        min-height: 10px;
+         /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        min-height: 10px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+} 
+
+.deneme1{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    height: 200px;
+    }
+
+#map {
+    min-height: 300px;
+    max-height: 370px;
+    width: 96%;
+    }
+
+.logo{
+    display: inline-block;
+    padding: 0.5%;
+    }
+
+.logo2{
+    display: inline-block;
+    padding: 10px; 
+    vertical-align: top;
+    }
+
+.logo3{
+    display: inline-block; 
+    padding: 10px;
+}
+
+.logoWrite {
+    font-weight: bold;
+    font-size: 56px;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .logoWrite {
+        font-size: 36px; /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logoWrite {
+        font-size: 16px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
+
+.mapjpg{
+    display: flex;
+    min-height: 850px;
+}
+
+#logojpg{
+    width: 128px;
+}
+
+@media screen and (max-width: 768px) {
+    #logojpg {
+        width: 64px; /* Ekran genişliği 768 piksel veya daha küçükse font boyutunu 36 piksel yap */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #logojpg {
+        width: 48px; /* Ekran genişliği 480 piksel veya daha küçükse font boyutunu 24 piksel yap */
+    }
+}
